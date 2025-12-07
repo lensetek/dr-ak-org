@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
               <img src="https://cdn.lensetek.com/misc/drak/logo-drak.png" alt="Logo Dr-AK" className="h-10 w-auto" />
             </div>
             <span className={`font-bold text-xl tracking-tight ${scrolled ? 'text-slate-900' : 'text-slate-900 lg:text-slate-800'}`}>
-              Dr-AK.org
+              LPK-SDM Dr. AK
             </span>
           </div>
 

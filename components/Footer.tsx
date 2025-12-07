@@ -10,11 +10,11 @@ const Footer: React.FC = () => {
             <div className="bg-primary-600 p-1.5 rounded text-white">
               <Sprout size={20} />
             </div>
-            <span className="font-bold text-lg text-slate-900">Dr-AK.org</span>
+            <span className="font-bold text-lg text-slate-900">LPK-SDM Dr. AK</span>
           </div>
-          
+
           <div className="text-slate-500 text-sm text-center md:text-right">
-            <p>&copy; {new Date().getFullYear()} Dr-AK Organization.</p>
+            <p>&copy; {new Date().getFullYear()} LPK-SDM Dr. AK.</p>
             <p>Bekerja sama dengan Universitas Darwan Ali & LPK-SDM.</p>
             <p className="mt-2">Katingan - Sampit, Kalimantan Tengah.</p>
           </div>
