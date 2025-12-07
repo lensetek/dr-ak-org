@@ -13,7 +13,7 @@ const Benefits: React.FC = () => {
       icon: <BookOpen className="w-8 h-8 text-white" />,
       color: "bg-blue-600",
       title: "Manfaat Akademik",
-      desc: "Aktivitas bisnis diakui sebagai praktik S1 Manajemen. Anda belajar teori dan langsung mengaplikasikannya. Lulus dengan gelar Sarjana Manajemen (S.M.)."
+      desc: "Aktivitas bisnis diakui sebagai praktik S1 Manajemen/D4 Akuntansi. Lulus dengan gelar Sarjana Manajemen (S.M.) atau Sarjana Terapan Akuntansi Perpajakan (S.Tr., Ak)."
     },
     {
       icon: <Briefcase className="w-8 h-8 text-white" />,
