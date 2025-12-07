@@ -25,8 +25,8 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <div className="bg-primary-600 p-2 rounded-lg text-white">
-              <Sprout size={24} />
+            <div className="bg-transparent p-0 rounded-lg">
+              <img src="https://cdn.lensetek.com/misc/drak/logo-drak.png" alt="Logo Dr-AK" className="h-10 w-auto" />
             </div>
             <span className={`font-bold text-xl tracking-tight ${scrolled ? 'text-slate-900' : 'text-slate-900 lg:text-slate-800'}`}>
               Dr-AK.org
