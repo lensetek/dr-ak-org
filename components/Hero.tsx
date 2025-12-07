@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          
+
           {/* Text Content */}
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-50 border border-primary-100 text-primary-700 text-sm font-semibold mb-6">
@@ -20,21 +20,21 @@ const Hero: React.FC = () => {
               </span>
               Batch Terbaru Dibuka
             </div>
-            
+
             <h1 className="text-4xl lg:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
-              Kuliah Sampai Lulus <br/>
+              Kuliah Sampai Lulus <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-500">
                 Dibayar dari Bisnis
               </span>
             </h1>
-            
+
             <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Kami siapkan peternakannya, Anda dan teman-teman kelola penjualannya. 
+              Kami siapkan peternakannya, Anda dan teman-teman kelola penjualannya.
               Hasilnya membayar uang kuliah Anda sampai wisuda.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a 
+              <a
                 href="https://forms.gle/PAezR3qqYYk4MPf68"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
               >
                 Gabung Sekarang <ArrowRight className="ml-2 h-5 w-5" />
               </a>
-              <a 
+              <a
                 href="#cara-kerja"
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-slate-700 transition-all duration-200 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-200"
               >
@@ -69,9 +69,9 @@ const Hero: React.FC = () => {
           {/* Image/Visual */}
           <div className="relative mx-auto lg:mx-0 w-full max-w-lg lg:max-w-full">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
-              <img 
-                src="https://picsum.photos/800/600?random=1" 
-                alt="Mahasiswa Sukses Wirausaha" 
+              <img
+                src="https://cdn.lensetek.com/misc/drak/banner.png"
+                alt="Mahasiswa Sukses Wirausaha"
                 className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Floating Badge */}
             <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-xl border border-slate-100 flex items-center gap-3 animate-bounce hidden md:flex">
               <div className="bg-secondary-100 p-2 rounded-full">
